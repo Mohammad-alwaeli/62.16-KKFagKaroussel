@@ -17,7 +17,7 @@ function loadPrompt(allSubjects) {
  * @returns 
  */
 function randomDisciplines(allSubjects) {
-    return ["Informatik", pickRandom(Object.keys(allSubjects))];
+    return ["Informatik", pickRandom(Object.keys(allSubjects))];//Kombinerer Informatik med et andet tilfældig valgt emne
 }
 
 /**
@@ -51,6 +51,6 @@ function randomSubjects(disciplinePair, allSubjects) {
  */
 function makePrompt(disciplinePair, subjectPair) {
     return "første fag er:" + disciplinePair[0] + "emnet er: " + subjectPair[0] 
-        + "andet fag er:" + disciplinePair[1] + " emnet er: " + subjectPair[1];
+        + "andet fag er:" + disciplinePair[1] + " emnet er: " + subjectPair[1];//Giver vores funktion output sprog til som gør det mere læseligt
 }
 
