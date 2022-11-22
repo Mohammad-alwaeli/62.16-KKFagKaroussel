@@ -13,7 +13,9 @@ var allSubjects = {
     ],
 
     Samfundsfag: [
-        "Dansk polotik", "International politik", "Økonomi"
+        "Dansk politik", "International politik", "Økonomi", "Valgkamp", "Velfærd I Danmark",
+        "Indvandrer Politik", "Fordelingen Af Elever"
+
     ],
 
     Engelsk: [
