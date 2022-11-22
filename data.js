@@ -36,4 +36,10 @@ var allSubjects = {
         "Livstilssygdomme", "Epidemier", "radioaktivitet", "Kønssygdomme", 
         "Nikotin"
     ],
+
+    spansk: [
+        "Frida Khalo", "Spansk Arkitektur", "Kriminalitet i Sydamerika", "Franco Tiden",
+        "Spansk Kunst"
+
+    ]
 }
