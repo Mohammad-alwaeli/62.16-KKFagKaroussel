@@ -31,7 +31,7 @@ function pickRandom(anArray){
 }
 
 /**
- * 
+ * // Sørger for at de to valgte fag ikke er de samme.
  * @param {*} disciplinePair 
  * @param {*} allSubjects 
  * @returns 
@@ -50,7 +50,7 @@ function randomSubjects(disciplinePair, allSubjects) {
  * @returns 
  */
 function makePrompt(disciplinePair, subjectPair) {
-    return "første fag er:" + disciplinePair[0] + "emnet er: " + subjectPair[0] 
-        + "andet fag er:" + disciplinePair[1] + " emnet er: " + subjectPair[1];
+    return "Det første fag er:" + disciplinePair[0] + "og emnet er: " + subjectPair[0] 
+        + ". Det andet fag er:" + disciplinePair[1] + "  og emnet er: " + subjectPair[1];
 }
 
