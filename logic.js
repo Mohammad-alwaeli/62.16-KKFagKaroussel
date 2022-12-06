@@ -53,4 +53,3 @@ function makePrompt(disciplinePair, subjectPair) {
     return "Det første fag er " + disciplinePair[0] + ", emnet er " + subjectPair[0] 
         + ". Det andet fag er " + disciplinePair[1] + ", emnet er " + subjectPair[1];
 }
-
